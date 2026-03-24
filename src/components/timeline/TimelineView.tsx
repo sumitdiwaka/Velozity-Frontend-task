@@ -1,6 +1,6 @@
 import { useTaskStore } from '../../store/useTaskStore';
-import { today, parseDate, getDaysInMonth, toIsoDate } from '../../utils/dateUtils';
-import { PriorityBadge } from '../shared/PriorityBadge';
+import { today, parseDate, getDaysInMonth, } from '../../utils/dateUtils';
+// import { PriorityBadge } from '../shared/PriorityBadge';
 import { USERS } from '../../data/seedData';
 
 const DAY_WIDTH = 36;

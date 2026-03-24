@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useTaskStore } from '../store/useTaskStore';
-import type { FilterState, Status, Priority, ViewMode } from '../types';
+import type {  Status, Priority, ViewMode } from '../types';
 
 /**
  * Keeps URL query params in sync with filter + view state.
