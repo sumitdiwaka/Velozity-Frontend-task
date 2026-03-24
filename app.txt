@@ -1,0 +1,41 @@
+velozity-tracker/
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
+├── tsconfig.node.json
+├── package.json
+├── src/
+│   ├── main.tsx
+│   ├── App.tsx
+│   ├── index.css                  ← Tailwind v4 entry
+│   ├── types/
+│   │   └── index.ts               ← All TypeScript types
+│   ├── data/
+│   │   └── seedData.ts            ← 500+ task generator
+│   ├── store/
+│   │   └── useTaskStore.ts        ← Zustand store
+│   ├── hooks/
+│   │   ├── useUrlFilters.ts       ← URL ↔ filter sync
+│   │   └── useVirtualScroll.ts    ← Virtual scroll logic
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   └── CollaborationBar.tsx
+│   │   ├── filters/
+│   │   │   └── FilterBar.tsx
+│   │   ├── kanban/
+│   │   │   ├── KanbanBoard.tsx
+│   │   │   ├── KanbanColumn.tsx
+│   │   │   └── TaskCard.tsx
+│   │   ├── listview/
+│   │   │   ├── ListView.tsx
+│   │   │   └── VirtualList.tsx
+│   │   ├── timeline/
+│   │   │   └── TimelineView.tsx
+│   │   └── shared/
+│   │       ├── Avatar.tsx
+│   │       ├── PriorityBadge.tsx
+│   │       └── EmptyState.tsx
+│   └── utils/
+│       ├── dateUtils.ts
+│       └── dragDrop.ts            ← Custom DnD logic
