@@ -11,6 +11,7 @@ A fully functional project management interface built with React, TypeScript, an
 - Node.js 18 or above
 - npm 9 or above
 
+Live link:-https://velozity-frontend-task.vercel.app
 ### Installation
 
 ```bash
